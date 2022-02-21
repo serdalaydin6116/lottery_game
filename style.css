@@ -1,0 +1,82 @@
+body{
+    background-image: url(./image/lottery.jpg);
+  
+    
+    /* background-image: linear-gradient(to bottom, rgb(125, 155, 255), rgb(0, 225, 255)); */
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    flex: 1;
+    margin: 3rem 7rem;
+   
+    /* justify-content: space-around; */
+}
+#getNumbers{
+    margin-left: 2rem;
+    line-height: 2rem;
+    width: 13rem;
+    font-size: 1rem;
+    font-weight: 800;
+    background-color: brown;
+   
+}
+
+#rst{
+    margin-left: 2rem;
+    line-height: 2rem;
+    width: 5rem;
+    font-size: 1rem;
+    font-weight: 800;
+    background-color: cyan;
+   
+}
+#getNumbers:hover{
+     background-color: blue;
+     color: white;
+}
+
+
+
+#input{
+    padding-left: 0.5rem;
+    line-height: 2rem;
+    width: 8rem;
+    font-size: 1rem;
+    font-weight: 800;
+    text-align: center;
+    background-color: brown;
+   
+}
+
+#input:hover{
+    background-color: blue;
+    color: white;
+}
+h3, h4{
+    margin-top: 2rem;
+    text-align: center;
+   
+    font-size: 1.5rem;
+}
+#result{
+    text-align: center;
+    
+}
+#list{
+    border: 3px solid red;
+    margin: 7rem 8rem;
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+    font-size: 2rem;
+    line-height: 1rem;
+}
+
+#design{
+    border: 3px solid yellow
+}
