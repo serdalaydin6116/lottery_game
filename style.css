@@ -1,5 +1,10 @@
 body{
     background-image: url(./image/lottery.jpg);
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
   
     
     /* background-image: linear-gradient(to bottom, rgb(125, 155, 255), rgb(0, 225, 255)); */
@@ -18,7 +23,7 @@ body{
 }
 #getNumbers{
     margin-left: 2rem;
-    line-height: 2rem;
+    /* line-height: 2rem; */
     width: 13rem;
     font-size: 1rem;
     font-weight: 800;
@@ -77,6 +82,70 @@ h3, h4{
     line-height: 1rem;
 }
 
-#design{
-    border: 3px solid yellow
+
+
+
+@media screen and (max-width: 420px){
+    #list{        
+        font-size: 1rem;
+        line-height: 1rem;
+        margin: 7rem 3rem;
+    }
+    h3, h4{
+        margin-top: 2rem;
+        text-align: center;       
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    #input{
+        
+        line-height: 2.1rem;
+        width: 3rem;
+        font-size: 1rem;
+        font-weight: 500;
+        text-align: center;
+        background-color: brown;
+       
+    }
+    #input:hover{
+        background-color: blue;
+        color: white;
+    }
+    #getNumbers{
+        height: 2.5rem;
+        /* line-height: 2.7rem; */
+        /* width: 20rem; */
+        font-size: 1rem;
+        font-weight: 600;
+        background-color: brown;
+       
+    }
+    #getNumbers:hover{
+        background-color: blue;
+        color: white;
+   }
+    
+    #rst{
+        
+        line-height: 2.1rem;
+        width: 5rem;
+        font-size: 1rem;
+        font-weight: 600;
+        background-color: cyan;
+       
+    }
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 0rem;       
+        margin: 1rem 0.5rem;
+
+    }
+    body{
+        
+        background-image: linear-gradient(to bottom, rgb(125, 155, 255), rgb(0, 225, 255));
+    }
 }
+
